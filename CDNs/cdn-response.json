@@ -1,0 +1,8 @@
+	{
+		"TotalLibs" : 2,
+		"Libs" : 
+		[
+			{"name" : "AngularJS", "desc" : "AngularJS extends HTML with new attributes.<br>AngularJS is perfect for Single Page Applications (SPAs).AngularJS is easy to learn." , "icon" : "http://kabeersnetwork.dx.am/assets/images/icons/angular-icon.svg", "links" : [{"type" : "JS", "link" : "http://kabeersnetwork.dx.am/CDNs/AngularJS/angular1.6.9.min.js"}]},
+			{"name" : "brain.js", "desc" : "Brain.js is a GPU accelerated library of Neural Networks written in JavaScript for Browsers and Node.js. It is simple, fast and easy to use." , "icon" : "http://kabeersnetwork.dx.am/assets/images/icons/brainjs-icon.png", "links" : [{"type" : "JS", "link" : "http://kabeersnetwork.dx.am/CDNs/Brain.js-1.1.2/Brain.js"}]}
+		]
+	}
