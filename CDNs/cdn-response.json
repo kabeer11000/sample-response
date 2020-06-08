@@ -1,5 +1,5 @@
 	{
-		"TotalLibs" : 8,
+		"TotalLibs" : 9,
 		"Libs" : 
 		[
 			{"name" : "AngularJS", "desc" : "AngularJS extends HTML with new attributes.<br>AngularJS is perfect for Single Page Applications (SPAs).AngularJS is easy to learn." , "icon" : "http://kabeersnetwork.dx.am/assets/images/icons/angular-icon.svg", "links" : [{"name":"JS", "type" : "JS", "link" : "http://kabeersnetwork.dx.am/CDNs/AngularJS/angular1.6.9.min.js"}]},
@@ -9,6 +9,7 @@
 			{"name" : "Proper JS", "desc" : "Tooltip & popover Positioning engine Weighs just 3 kb!." , "icon" : "http://kabeersnetwork.dx.am/assets/images/icons/properjs-icon.svg", "links" : [{"name":"JS", "type" : "JS", "link" : "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"}]},
 			{"name" : "JQuery JS", "desc" : "jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers." , "icon" : "http://kabeersnetwork.dx.am/assets/images/icons/jquery-icon.png", "links" : [{"name":"JS", "type" : "JS", "link" : "https://code.jquery.com/jquery-3.3.1.slim.min.js"}]},
 			{"name" : "React JS", "desc" : "React is an open-source JavaScript library for building user interfaces. It is maintained by Facebook and a community of individual developers and companies." , "icon" : "http://kabeersnetwork.dx.am/assets/images/icons/react-icon.svg", "links" : [{"name":"React JS", "type" : "JS", "link" : "https://unpkg.com/react@16/umd/react.production.min.js"},{"name":"React Dom", "type" : "JS", "link" : "https://unpkg.com/react@16/umd/react-dom.production.min.js"}]},
-			{"name" : "Infinite Scroll JS", "desc" : "Infinite Scroll is a JavaScript plugin that automatically adds the next page, saving users from a full page load. You’ve likely seen it in use all over the web." , "icon" : "http://kabeersnetwork.dx.am/assets/images/icons/infinitescroll-icon.svg", "links" : [{"name":"JS", "type" : "JS", "link" : "http://kabeersnetwork.dx.am/CDNs/Infinite-Scroll/infinite-scroll.pkgd.min.js"}]}
+			{"name" : "Infinite Scroll JS", "desc" : "Infinite Scroll is a JavaScript plugin that automatically adds the next page, saving users from a full page load. You’ve likely seen it in use all over the web." , "icon" : "http://kabeersnetwork.dx.am/assets/images/icons/infinitescroll-icon.svg", "links" : [{"name":"JS", "type" : "JS", "link" : "http://kabeersnetwork.dx.am/CDNs/Infinite-Scroll/infinite-scroll.pkgd.min.js"}]},
+			{"name" : "Chart JS", "desc" : "Simple HTML5 charts using the canvas element. charts" , "icon" : "https://www.chartjs.org/img/chartjs-logo.svg", "links" : [{"name":"JS", "type" : "JS", "link" : "https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"}]}
     		]
 	}
