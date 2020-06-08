@@ -1,5 +1,5 @@
 	{
-		"TotalLibs" : 9,
+		"TotalLibs" : 10,
 		"Libs" : 
 		[
 			{"name" : "AngularJS", "desc" : "AngularJS extends HTML with new attributes.<br>AngularJS is perfect for Single Page Applications (SPAs).AngularJS is easy to learn." , "icon" : "http://kabeersnetwork.dx.am/assets/images/icons/angular-icon.svg", "links" : [{"name":"JS", "type" : "JS", "link" : "http://kabeersnetwork.dx.am/CDNs/AngularJS/angular1.6.9.min.js"}]},
