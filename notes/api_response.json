@@ -1,7 +1,9 @@
 {
    "status":true,
-   "username":"kabeer11000",
-   "firstname":"kabeer",
-   "lastname":"jaffri",
-   "userid":"123456"
+   "user":{
+      "username":"kabeer11000",
+      "firstname":"kabeer",
+      "lastname":"jaffri",
+      "userid":"123456"
+   }
 }
