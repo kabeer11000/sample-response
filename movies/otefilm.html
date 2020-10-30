@@ -1,0 +1,743 @@
+<!DOCTYPE HTML>
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>OTEFILM - Watch Movies & TV Shows Online Free</title>
+      <meta name="description" content="Full Movie Streaming">
+      <meta name="keywords" content="Full Episode">
+      <link rel="icon" type="image/png" href="/favicon.png">
+      <link href="https://fonts.googleapis.com/css?family=Asap:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+      <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+      <link href="https://otefilm.com/include/css/bootstrap.min.css" rel="stylesheet">
+      <link href="/include/css/mov.css" rel="stylesheet" type="text/css">
+      <link href="https://otefilm.com/templates/v1/style.css" rel="stylesheet" type="text/css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.7.1/modernizr.min.js" type="text/javascript"></script>
+      <script src="/include/js/css3-mediaqueries.js" type="text/javascript"></script>
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script> 
+      <script src="https://oss.maxcdn.com/respond/1.3/respond.min.js"></script>
+      <![endif]-->
+      <script>
+         fbq('track', 'Search');
+      </script>
+      <!-- Facebook Pixel Code -->
+      <script>
+         !function(f,b,e,v,n,t,s)
+         {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+         n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+         if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+         n.queue=[];t=b.createElement(e);t.async=!0;
+         t.src=v;s=b.getElementsByTagName(e)[0];
+         s.parentNode.insertBefore(t,s)}(window, document,'script',
+         'https://connect.facebook.net/en_US/fbevents.js');
+         fbq('init', '909420062555668');
+         fbq('track', 'PageView');
+      </script>
+      <noscript><img height="1" width="1" style="display:none"
+         src="https://www.facebook.com/tr?id=909420062555668&ev=PageView&noscript=1"
+         /></noscript>
+      <!-- End Facebook Pixel Code -->
+   </head>
+   <body>
+      <div class="navbar navbar-inverse navbar-static-top">
+         <div class="container">
+            <div class="navbar-header">
+               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               </button>
+               <a class="navbar-brand" href="https://otefilm.com/">OTEFILM</a>
+            </div>
+            <!-- navbar-header -->
+            <div class="navbar-collapse collapse" id="searchbar">
+               <ul class="nav navbar-nav">
+                  <li class="dropdown">
+                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                     <i class="fa fa-film"></i> Movie <span class="caret"></span>
+                     </a>
+                     <ul class="dropdown-menu" role="menu">
+                        <li><a href="https://otefilm.com/"><i class="fa fa-home"></i> Home</a></li>
+                        <li><a href="https://otefilm.com/playing"><i class="fa fa-dot-circle-o"></i> Now Playing</a></li>
+                        <li><a href="https://otefilm.com/toprated"><i class="fa fa-list-alt"></i> Top Rated</a></li>
+                        <li><a href="https://otefilm.com/upcoming"><i class="fa fa-star-half-o"></i> Upcoming</a></li>
+                     </ul>
+                  </li>
+                  <li class="dropdown">
+                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                     <i class="fa fa-file-video-o"></i> TV Show<span class="caret"></span>
+                     </a>
+                     <ul class="dropdown-menu" role="menu">
+                        <li><a href="https://otefilm.com/airing"><i class="fa fa-dot-circle-o"></i> TV shows Airing</a></li>
+                        <li><a href="https://otefilm.com/ontheair"><i class="fa fa-list-alt"></i> On the Air</a></li>
+                        <li><a href="https://otefilm.com/popular"><i class="fa fa-star-half-o"></i> Popular TV Series</a></li>
+                     </ul>
+                  </li>
+                  <li>&nbsp;</li>
+               </ul>
+               <form class="navbar-form" method="get" action="/">
+                  <div class="form-group" style="display:inline;">
+                     <div class="input-group" style="display:table;">
+                        <input name="do" type="hidden" value="search">
+                        <input class="form-control search-form" name="q" placeholder="Type Movie title here?" autocomplete="off" autofocus="autofocus" type="text">
+                        <span class="input-group-btn" style="width:1%;cursor: pointer;"><button type="submit" class="btn btn-primary"> Search</button></span>
+                     </div>
+                  </div>
+               </form>
+            </div>
+            <!-- nav-collapse -->
+         </div>
+         <!-- container -->
+      </div>
+      <!-- Movie information Modal -->
+      <div class="modal fade" id="myModal2" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+         <div class="modal-dialog">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" arialabel="Close"><span aria-hidden="true">&times;</span></button>
+                  <h4 class="modal-title" id="myModalLabel">Trailer </h4>
+               </div>
+               <div class="modal-body">
+                  <div class="hide"><iframe class="embed-responsive-item" src="//www.youtube.com/embed/?rel=0&amp;modestbranding=1&amp;autoplay=0&amp;autohide=0&amp;showinfo=1&amp;controls=0" onload="this.scrolling='no';this.allowfullscreen='true';" style="overflow:hidden;border:0;" scrolling="no"></iframe></div>
+                  <div class="embed-responsive embed-responsive-16by9">
+                     <iframe class="embed-responsive-item" src="//www.youtube.com/embed/?rel=0&amp;modestbranding=1&amp;autoplay=0&amp;autohide=1&amp;showinfo=1&amp;controls=0"></iframe>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="modal fade" id="modal-watch" tabindex="-1" role="dialog" aria-labelledby="modal-watch" aria-hidden="true">
+         <div class="modal-dialog">
+            <div class="modal-body clearfix">
+               <div class="modal-header bg-info">
+                  <h5 class="modal-title" align="center" id="myModalLabel">PLEASE <i>"LOGIN OR SIGNUP"</i> </h5>
+               </div>
+               <div class="modal-body clearfix">
+                  <div class="row">
+                     <div class="col-md-6" id="login">
+                        <img class="img-responsive" src="https://merahputih.com/media/7f/21/b3/7f21b3b95309d890872fd9e8fc15cfaa.jpg">
+                        <hr>
+                        <h5>Member Login</h5>
+                        <div class="form-group">
+                           <input type="text" class="form-control input-sm" id="userid" placeholder="username">
+                        </div>
+                        <div class="form-group">
+                           <input type="password" class="form-control input-sm" id="password" placeholder="password">
+                        </div>
+                        <div class="form-group">
+                           <span class="onload label label-info" style="display: none;">Please wait...</span>
+                           <span class="onerror label label-warning" style="display: none;">Wrong Username or Password</span>
+                        </div>
+                        <input type="submit" id="submov" class="btn btn-success" value="Log me in">
+                        <br/>
+                     </div>
+                     <center>
+                     <a class="btn btn-danger" target="_blank" href="https://otefilm.com/register.php">Sign Up For Free</a>
+                     <div class="col-md-6">
+                        <ul class="list-group">
+                           <li class="list-group-item">
+                              <h4 class="list-group-item-heading">High Quality Movies</h4>
+                              <p class="list-group-item-text">All of the Movies are available in the superior HD Quality or even higher!</p>
+                           </li>
+                           <li class="list-group-item">
+                              <h4 class="list-group-item-heading">Watch Without Limits</h4>
+                              <p class="list-group-item-text">You will get access to all of your favourite the Movies without any limits.</p>
+                           </li>
+                           <li class="list-group-item">
+                              <h4 class="list-group-item-heading">100% Free Advertising</h4>
+                              <p class="list-group-item-text">Your account will always be free from all kinds of advertising.</p>
+                           </li>
+                           <li class="list-group-item">
+                              <h4 class="list-group-item-heading">Watch anytime, anywhere</h4>
+                              <p class="list-group-item-text">It works on your TV, PC, or MAC!</p>
+                           </li>
+                        </ul>
+                     </div>
+                     <div class="modal-footer bg-info">
+                        <h5>
+                           <center>OTEFILM</center>
+                        </h5>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="container box-container">
+         <div class="row">
+            <div class="col-md-12">
+               <div id="google_translate_element"></div>
+               <script type="text/javascript">
+                  function googleTranslateElementInit() {
+                  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL}, 'google_translate_element');
+                  }
+               </script>
+               <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+               <div class="page-header text-center tittle h3">MOVIES</div>
+               <div class="col-md-2 col-sm-4 col-xs-6">
+                  <div class="row">
+                     <div class="movie-list text-center" data-toggle="tooltip" data-placement="top" title="Hard Kill">
+                        <a href="https://otefilm.com/movie/724989/hard-kill.html">
+                           <img src="//i1.wp.com/image.tmdb.org/t/p/w300/ugZW8ocsrfgI95pnQ7wrmKDxIe.jpg?resize=300,450" alt="Hard Kill" class="img-responsive">
+                           <div class="movie-list-title nowrap">Hard Kill</div>
+                        </a>
+                        <div class="label label-info">4.2/10 by 28 user</div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-2 col-sm-4 col-xs-6">
+                  <div class="row">
+                     <div class="movie-list text-center" data-toggle="tooltip" data-placement="top" title="2067">
+                        <a href="https://otefilm.com/movie/528085/2067.html">
+                           <img src="//i1.wp.com/image.tmdb.org/t/p/w300/7D430eqZj8y3oVkLFfsWXGRcpEG.jpg?resize=300,450" alt="2067" class="img-responsive">
+                           <div class="movie-list-title nowrap">2067</div>
+                        </a>
+                        <div class="label label-info">5.4/10 by 201 user</div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-2 col-sm-4 col-xs-6">
+                  <div class="row">
+                     <div class="movie-list text-center" data-toggle="tooltip" data-placement="top" title="&#21127;&#22580;&#29256;&#12300;&#39740;&#28357;&#12398;&#20995;&#12301;&#28961;&#38480;&#21015;&#36554;&#32232;">
+                        <a href="https://otefilm.com/movie/635302/21127-22580-29256-12300-39740-28357-12398-20995-12301-28961-38480-21015-36554-32232.html">
+                           <img src="//i1.wp.com/image.tmdb.org/t/p/w300/h8Rb9gBr48ODIwYUttZNYeMWeUU.jpg?resize=300,450" alt="&#21127;&#22580;&#29256;&#12300;&#39740;&#28357;&#12398;&#20995;&#12301;&#28961;&#38480;&#21015;&#36554;&#32232;" class="img-responsive">
+                           <div class="movie-list-title nowrap">&#21127;&#22580;&#29256;&#12300;&#39740;&#28357;&#12398;&#20995;&#12301;&#28961;&#38480;&#21015;&#36554;&#32232;</div>
+                        </a>
+                        <div class="label label-info">7.5/10 by 20 user</div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-2 col-sm-4 col-xs-6">
+                  <div class="row">
+                     <div class="movie-list text-center" data-toggle="tooltip" data-placement="top" title="Roald Dahl's The Witches">
+                        <a href="https://otefilm.com/movie/531219/roald-dahl-s-the-witches.html">
+                           <img src="//i1.wp.com/image.tmdb.org/t/p/w300/betExZlgK0l7CZ9CsCBVcwO1OjL.jpg?resize=300,450" alt="Roald Dahl's The Witches" class="img-responsive">
+                           <div class="movie-list-title nowrap">Roald Dahl's The Witches</div>
+                        </a>
+                        <div class="label label-info">7.3/10 by 305 user</div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-2 col-sm-4 col-xs-6">
+                  <div class="row">
+                     <div class="movie-list text-center" data-toggle="tooltip" data-placement="top" title="Enola Holmes">
+                        <a href="https://otefilm.com/movie/497582/enola-holmes.html">
+                           <img src="//i1.wp.com/image.tmdb.org/t/p/w300/riYInlsq2kf1AWoGm80JQW5dLKp.jpg?resize=300,450" alt="Enola Holmes" class="img-responsive">
+                           <div class="movie-list-title nowrap">Enola Holmes</div>
+                        </a>
+                        <div class="label label-info">7.6/10 by 2306 user</div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-2 col-sm-4 col-xs-6">
+                  <div class="row">
+                     <div class="movie-list text-center" data-toggle="tooltip" data-placement="top" title="Welcome to Sudden Death">
+                        <a href="https://otefilm.com/movie/741067/welcome-to-sudden-death.html">
+                           <img src="//i1.wp.com/image.tmdb.org/t/p/w300/elZ6JCzSEvFOq4gNjNeZsnRFsvj.jpg?resize=300,450" alt="Welcome to Sudden Death" class="img-responsive">
+                           <div class="movie-list-title nowrap">Welcome to Sudden Death</div>
+                        </a>
+                        <div class="label label-info">6.4/10 by 128 user</div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-2 col-sm-4 col-xs-6">
+                  <div class="row">
+                     <div class="movie-list text-center" data-toggle="tooltip" data-placement="top" title="Picture Perfect Mysteries: Exit Stage Death">
+                        <a href="https://otefilm.com/movie/733278/picture-perfect-mysteries-exit-stage-death.html">
+                           <img src="//i1.wp.com/image.tmdb.org/t/p/w300/eHFJ15cZ1pfk60XTcTl9GYxnhf6.jpg?resize=300,450" alt="Picture Perfect Mysteries: Exit Stage Death" class="img-responsive">
+                           <div class="movie-list-title nowrap">Picture Perfect Mysteries: Exit Stage Death</div>
+                        </a>
+                        <div class="label label-info">6/10 by 2 user</div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-2 col-sm-4 col-xs-6">
+                  <div class="row">
+                     <div class="movie-list text-center" data-toggle="tooltip" data-placement="top" title="Love and Monsters">
+                        <a href="https://otefilm.com/movie/590223/love-and-monsters.html">
+                           <img src="//i1.wp.com/image.tmdb.org/t/p/w300/r4Lm1XKP0VsTgHX4LG4syAwYA2I.jpg?resize=300,450" alt="Love and Monsters" class="img-responsive">
+                           <div class="movie-list-title nowrap">Love and Monsters</div>
+                        </a>
+                        <div class="label label-info">7.7/10 by 205 user</div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-2 col-sm-4 col-xs-6">
+                  <div class="row">
+                     <div class="movie-list text-center" data-toggle="tooltip" data-placement="top" title="Mulan">
+                        <a href="https://otefilm.com/movie/337401/mulan.html">
+                           <img src="//i1.wp.com/image.tmdb.org/t/p/w300/aKx1ARwG55zZ0GpRvU2WrGrCG9o.jpg?resize=300,450" alt="Mulan" class="img-responsive">
+                           <div class="movie-list-title nowrap">Mulan</div>
+                        </a>
+                        <div class="label label-info">7.3/10 by 2672 user</div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-2 col-sm-4 col-xs-6">
+                  <div class="row">
+                     <div class="movie-list text-center" data-toggle="tooltip" data-placement="top" title="Rogue">
+                        <a href="https://otefilm.com/movie/718444/rogue.html">
+                           <img src="//i1.wp.com/image.tmdb.org/t/p/w300/uOw5JD8IlD546feZ6oxbIjvN66P.jpg?resize=300,450" alt="Rogue" class="img-responsive">
+                           <div class="movie-list-title nowrap">Rogue</div>
+                        </a>
+                        <div class="label label-info">5.8/10 by 326 user</div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-2 col-sm-4 col-xs-6">
+                  <div class="row">
+                     <div class="movie-list text-center" data-toggle="tooltip" data-placement="top" title="A Quiet Place Part II">
+                        <a href="https://otefilm.com/movie/520763/a-quiet-place-part-ii.html">
+                           <img src="//i1.wp.com/image.tmdb.org/t/p/w300/4q2hz2m8hubgvijz8Ez0T2Os2Yv.jpg?resize=300,450" alt="A Quiet Place Part II" class="img-responsive">
+                           <div class="movie-list-title nowrap">A Quiet Place Part II</div>
+                        </a>
+                        <div class="label label-info">0/10 by 0 user</div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-2 col-sm-4 col-xs-6">
+                  <div class="row">
+                     <div class="movie-list text-center" data-toggle="tooltip" data-placement="top" title="After We Collided">
+                        <a href="https://otefilm.com/movie/613504/after-we-collided.html">
+                           <img src="//i1.wp.com/image.tmdb.org/t/p/w300/kiX7UYfOpYrMFSAGbI6j1pFkLzQ.jpg?resize=300,450" alt="After We Collided" class="img-responsive">
+                           <div class="movie-list-title nowrap">After We Collided</div>
+                        </a>
+                        <div class="label label-info">7.2/10 by 1054 user</div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-2 col-sm-4 col-xs-6">
+                  <div class="row">
+                     <div class="movie-list text-center" data-toggle="tooltip" data-placement="top" title="Money Plane">
+                        <a href="https://otefilm.com/movie/694919/money-plane.html">
+                           <img src="//i1.wp.com/image.tmdb.org/t/p/w300/6CoRTJTmijhBLJTUNoVSUNxZMEI.jpg?resize=300,450" alt="Money Plane" class="img-responsive">
+                           <div class="movie-list-title nowrap">Money Plane</div>
+                        </a>
+                        <div class="label label-info">5.9/10 by 156 user</div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-2 col-sm-4 col-xs-6">
+                  <div class="row">
+                     <div class="movie-list text-center" data-toggle="tooltip" data-placement="top" title="Ava">
+                        <a href="https://otefilm.com/movie/539885/ava.html">
+                           <img src="//i1.wp.com/image.tmdb.org/t/p/w300/qzA87Wf4jo1h8JMk9GilyIYvwsA.jpg?resize=300,450" alt="Ava" class="img-responsive">
+                           <div class="movie-list-title nowrap">Ava</div>
+                        </a>
+                        <div class="label label-info">5.8/10 by 545 user</div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-2 col-sm-4 col-xs-6">
+                  <div class="row">
+                     <div class="movie-list text-center" data-toggle="tooltip" data-placement="top" title="A Babysitter's Guide to Monster Hunting">
+                        <a href="https://otefilm.com/movie/624963/a-babysitter-s-guide-to-monster-hunting.html">
+                           <img src="//i1.wp.com/image.tmdb.org/t/p/w300/bkld8Me0WiLWipLORRNfF1yIPHu.jpg?resize=300,450" alt="A Babysitter's Guide to Monster Hunting" class="img-responsive">
+                           <div class="movie-list-title nowrap">A Babysitter's Guide to Monster Hunting</div>
+                        </a>
+                        <div class="label label-info">6.1/10 by 78 user</div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-2 col-sm-4 col-xs-6">
+                  <div class="row">
+                     <div class="movie-list text-center" data-toggle="tooltip" data-placement="top" title="&#48152;&#46020;">
+                        <a href="https://otefilm.com/movie/581392/48152-46020.html">
+                           <img src="//i1.wp.com/image.tmdb.org/t/p/w300/sy6DvAu72kjoseZEjocnm2ZZ09i.jpg?resize=300,450" alt="&#48152;&#46020;" class="img-responsive">
+                           <div class="movie-list-title nowrap">&#48152;&#46020;</div>
+                        </a>
+                        <div class="label label-info">7/10 by 676 user</div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-2 col-sm-4 col-xs-6">
+                  <div class="row">
+                     <div class="movie-list text-center" data-toggle="tooltip" data-placement="top" title="Borat Subsequent Moviefilm">
+                        <a href="https://otefilm.com/movie/740985/borat-subsequent-moviefilm.html">
+                           <img src="//i1.wp.com/image.tmdb.org/t/p/w300/6agKYU5IQFpuDyUYPu39w7UCRrJ.jpg?resize=300,450" alt="Borat Subsequent Moviefilm" class="img-responsive">
+                           <div class="movie-list-title nowrap">Borat Subsequent Moviefilm</div>
+                        </a>
+                        <div class="label label-info">6.8/10 by 500 user</div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-2 col-sm-4 col-xs-6">
+                  <div class="row">
+                     <div class="movie-list text-center" data-toggle="tooltip" data-placement="top" title="Final Destination 3">
+                        <a href="https://otefilm.com/movie/9286/final-destination-3.html">
+                           <img src="//i1.wp.com/image.tmdb.org/t/p/w300/p7ARuNKUGPGvkBiDtIDvAzYzonX.jpg?resize=300,450" alt="Final Destination 3" class="img-responsive">
+                           <div class="movie-list-title nowrap">Final Destination 3</div>
+                        </a>
+                        <div class="label label-info">6/10 by 2477 user</div>
+                     </div>
+                  </div>
+               </div>
+               <div class="clearfix"></div>
+               <div class="page-header text-center tittle h3">TV SHOWS</div>
+               <div class="col-md-2 col-sm-4 col-xs-6">
+                  <div class="row">
+                     <div class="movie-list text-center" data-toggle="tooltip" data-placement="top" title="Cobra Kai">
+                        <a href="https://otefilm.com/tv/77169/cobra-kai.html">
+                           <img src="//i1.wp.com/image.tmdb.org/t/p/w300/eTMMU2rKpZRbo9ERytyhwatwAjz.jpg?resize=300,450" class="img-responsive">
+                           <div class="movie-list-title nowrap">Cobra Kai</div>
+                        </a>
+                        <div class="label label-info">8/10 by 1010 user</div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-2 col-sm-4 col-xs-6">
+                  <div class="row">
+                     <div class="movie-list text-center" data-toggle="tooltip" data-placement="top" title="Fear the Walking Dead">
+                        <a href="https://otefilm.com/tv/62286/fear-the-walking-dead.html">
+                           <img src="//i1.wp.com/image.tmdb.org/t/p/w300/wGFUewXPeMErCe2xnCmmLEiHOGh.jpg?resize=300,450" class="img-responsive">
+                           <div class="movie-list-title nowrap">Fear the Walking Dead</div>
+                        </a>
+                        <div class="label label-info">7.4/10 by 2411 user</div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-2 col-sm-4 col-xs-6">
+                  <div class="row">
+                     <div class="movie-list text-center" data-toggle="tooltip" data-placement="top" title="The Boys">
+                        <a href="https://otefilm.com/tv/76479/the-boys.html">
+                           <img src="//i1.wp.com/image.tmdb.org/t/p/w300/mY7SeH4HFFxW1hiI6cWuwCRKptN.jpg?resize=300,450" class="img-responsive">
+                           <div class="movie-list-title nowrap">The Boys</div>
+                        </a>
+                        <div class="label label-info">8.4/10 by 3302 user</div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-2 col-sm-4 col-xs-6">
+                  <div class="row">
+                     <div class="movie-list text-center" data-toggle="tooltip" data-placement="top" title="Lucifer">
+                        <a href="https://otefilm.com/tv/63174/lucifer.html">
+                           <img src="//i1.wp.com/image.tmdb.org/t/p/w300/4EYPN5mVIhKLfxGruy7Dy41dTVn.jpg?resize=300,450" class="img-responsive">
+                           <div class="movie-list-title nowrap">Lucifer</div>
+                        </a>
+                        <div class="label label-info">8.5/10 by 6033 user</div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-2 col-sm-4 col-xs-6">
+                  <div class="row">
+                     <div class="movie-list text-center" data-toggle="tooltip" data-placement="top" title="The Walking Dead: World Beyond">
+                        <a href="https://otefilm.com/tv/94305/the-walking-dead-world-beyond.html">
+                           <img src="//i1.wp.com/image.tmdb.org/t/p/w300/z31GxpVgDsFAF4paZR8PRsiP16D.jpg?resize=300,450" class="img-responsive">
+                           <div class="movie-list-title nowrap">The Walking Dead: World Beyond</div>
+                        </a>
+                        <div class="label label-info">7.8/10 by 305 user</div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-2 col-sm-4 col-xs-6">
+                  <div class="row">
+                     <div class="movie-list text-center" data-toggle="tooltip" data-placement="top" title="Grey's Anatomy">
+                        <a href="https://otefilm.com/tv/1416/grey-s-anatomy.html">
+                           <img src="//i1.wp.com/image.tmdb.org/t/p/w300/jnsvc7gCKocXnrTXF6p03cICTWb.jpg?resize=300,450" class="img-responsive">
+                           <div class="movie-list-title nowrap">Grey's Anatomy</div>
+                        </a>
+                        <div class="label label-info">8/10 by 3908 user</div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-2 col-sm-4 col-xs-6">
+                  <div class="row">
+                     <div class="movie-list text-center" data-toggle="tooltip" data-placement="top" title="The 100">
+                        <a href="https://otefilm.com/tv/48866/the-100.html">
+                           <img src="//i1.wp.com/image.tmdb.org/t/p/w300/wcaDIAG1QdXQLRaj4vC1EFdBT2.jpg?resize=300,450" class="img-responsive">
+                           <div class="movie-list-title nowrap">The 100</div>
+                        </a>
+                        <div class="label label-info">7.8/10 by 4747 user</div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-2 col-sm-4 col-xs-6">
+                  <div class="row">
+                     <div class="movie-list text-center" data-toggle="tooltip" data-placement="top" title="Supernatural">
+                        <a href="https://otefilm.com/tv/1622/supernatural.html">
+                           <img src="//i1.wp.com/image.tmdb.org/t/p/w300/KoYWXbnYuS3b0GyQPkbuexlVK9.jpg?resize=300,450" class="img-responsive">
+                           <div class="movie-list-title nowrap">Supernatural</div>
+                        </a>
+                        <div class="label label-info">8.1/10 by 4087 user</div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-2 col-sm-4 col-xs-6">
+                  <div class="row">
+                     <div class="movie-list text-center" data-toggle="tooltip" data-placement="top" title="The Walking Dead">
+                        <a href="https://otefilm.com/tv/1402/the-walking-dead.html">
+                           <img src="//i1.wp.com/image.tmdb.org/t/p/w300/qgjP2OrrX9gc6M270xdPnEmE9tC.jpg?resize=300,450" class="img-responsive">
+                           <div class="movie-list-title nowrap">The Walking Dead</div>
+                        </a>
+                        <div class="label label-info">7.9/10 by 8336 user</div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-2 col-sm-4 col-xs-6">
+                  <div class="row">
+                     <div class="movie-list text-center" data-toggle="tooltip" data-placement="top" title="The Simpsons">
+                        <a href="https://otefilm.com/tv/456/the-simpsons.html">
+                           <img src="//i1.wp.com/image.tmdb.org/t/p/w300/qcr9bBY6MVeLzriKCmJOv1562uY.jpg?resize=300,450" class="img-responsive">
+                           <div class="movie-list-title nowrap">The Simpsons</div>
+                        </a>
+                        <div class="label label-info">7.7/10 by 5026 user</div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-2 col-sm-4 col-xs-6">
+                  <div class="row">
+                     <div class="movie-list text-center" data-toggle="tooltip" data-placement="top" title="Game of Thrones">
+                        <a href="https://otefilm.com/tv/1399/game-of-thrones.html">
+                           <img src="//i1.wp.com/image.tmdb.org/t/p/w300/u3bZgnGQ9T01sWNhyveQz0wH0Hl.jpg?resize=300,450" class="img-responsive">
+                           <div class="movie-list-title nowrap">Game of Thrones</div>
+                        </a>
+                        <div class="label label-info">8.3/10 by 11148 user</div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-2 col-sm-4 col-xs-6">
+                  <div class="row">
+                     <div class="movie-list text-center" data-toggle="tooltip" data-placement="top" title="Riverdale">
+                        <a href="https://otefilm.com/tv/69050/riverdale.html">
+                           <img src="//i1.wp.com/image.tmdb.org/t/p/w300/4X7o1ssOEvp4BFLim1AZmPNcYbU.jpg?resize=300,450" class="img-responsive">
+                           <div class="movie-list-title nowrap">Riverdale</div>
+                        </a>
+                        <div class="label label-info">8.6/10 by 6126 user</div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-2 col-sm-4 col-xs-6">
+                  <div class="row">
+                     <div class="movie-list text-center" data-toggle="tooltip" data-placement="top" title="The Vampire Diaries">
+                        <a href="https://otefilm.com/tv/18165/the-vampire-diaries.html">
+                           <img src="//i1.wp.com/image.tmdb.org/t/p/w300/b3vl6wV1W8PBezFfntKTrhrehCY.jpg?resize=300,450" class="img-responsive">
+                           <div class="movie-list-title nowrap">The Vampire Diaries</div>
+                        </a>
+                        <div class="label label-info">8.3/10 by 3925 user</div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-2 col-sm-4 col-xs-6">
+                  <div class="row">
+                     <div class="movie-list text-center" data-toggle="tooltip" data-placement="top" title="Law & Order: Special Victims Unit">
+                        <a href="https://otefilm.com/tv/2734/law-order-special-victims-unit.html">
+                           <img src="//i1.wp.com/image.tmdb.org/t/p/w300/jDCgWVlejIo8sQYxw3Yf1cVQUIL.jpg?resize=300,450" class="img-responsive">
+                           <div class="movie-list-title nowrap">Law & Order: Special Victims Unit</div>
+                        </a>
+                        <div class="label label-info">7.5/10 by 1797 user</div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-2 col-sm-4 col-xs-6">
+                  <div class="row">
+                     <div class="movie-list text-center" data-toggle="tooltip" data-placement="top" title="The Good Doctor">
+                        <a href="https://otefilm.com/tv/71712/the-good-doctor.html">
+                           <img src="//i1.wp.com/image.tmdb.org/t/p/w300/53P8oHo9cfOsgb1cLxBi4pFY0ja.jpg?resize=300,450" class="img-responsive">
+                           <div class="movie-list-title nowrap">The Good Doctor</div>
+                        </a>
+                        <div class="label label-info">8.6/10 by 5263 user</div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-2 col-sm-4 col-xs-6">
+                  <div class="row">
+                     <div class="movie-list text-center" data-toggle="tooltip" data-placement="top" title="The Umbrella Academy">
+                        <a href="https://otefilm.com/tv/75006/the-umbrella-academy.html">
+                           <img src="//i1.wp.com/image.tmdb.org/t/p/w300/scZlQQYnDVlnpxFTxaIv2g0BWnL.jpg?resize=300,450" class="img-responsive">
+                           <div class="movie-list-title nowrap">The Umbrella Academy</div>
+                        </a>
+                        <div class="label label-info">8.7/10 by 3232 user</div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-2 col-sm-4 col-xs-6">
+                  <div class="row">
+                     <div class="movie-list text-center" data-toggle="tooltip" data-placement="top" title="Bones">
+                        <a href="https://otefilm.com/tv/1911/bones.html">
+                           <img src="//i1.wp.com/image.tmdb.org/t/p/w300/1bwF1daWnsEYYjbHXiEMdS587fR.jpg?resize=300,450" class="img-responsive">
+                           <div class="movie-list-title nowrap">Bones</div>
+                        </a>
+                        <div class="label label-info">8.1/10 by 1452 user</div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-2 col-sm-4 col-xs-6">
+                  <div class="row">
+                     <div class="movie-list text-center" data-toggle="tooltip" data-placement="top" title="The Flash">
+                        <a href="https://otefilm.com/tv/60735/the-flash.html">
+                           <img src="//i1.wp.com/image.tmdb.org/t/p/w300/wHa6KOJAoNTFLFtp7wguUJKSnju.jpg?resize=300,450" class="img-responsive">
+                           <div class="movie-list-title nowrap">The Flash</div>
+                        </a>
+                        <div class="label label-info">7.5/10 by 5999 user</div>
+                     </div>
+                  </div>
+               </div>
+               <div class="clearfix"></div>
+            </div>
+         </div>
+      </div>
+      <footer class="col-md-12" style="background:#F2552C;padding: 20px;color: white;font-weight: bolder;text-shadow: 0px  0px 1px rgb(0, 0, 0);">
+         <div class="container">
+            <div class="col-sm-6">Copyright © 2020 | OTEFILM</div>
+            <div class="col-sm-6">
+               <button class="btn btn-default btn-sm pull-right" data-toggle="modal" data-target=".dcma" style="min-width: 100px;">DMCA</button> <button class="btn btn-default btn-sm pull-right" data-toggle="modal" data-target=".privacy" style="min-width: 100px;">Privacy Police</button> <button class="btn btn-default btn-sm pull-right" data-toggle="modal" data-target=".contact" style="min-width: 100px;">Contact Us</button>
+            </div>
+         </div>
+      </footer>
+      <script>
+         $(document).ready(function() {
+         	$('#user, #username').focus();
+         	$('#submit, #login').click(function() {
+         		event.preventDefault(); // prevent PageReLoad
+         		$('.error').css('display', 'none'); // hide error msg
+         		$('#spiner_login, #spiner_login_menu').css('display', 'block');
+         		var ValidEmail = $('#user').val() === 'plese@login.here'; // Email Value
+         		var ValidPassword = $('#password').val() === 'YourPassword'; // Password Value
+         		if (ValidEmail === false && ValidPassword === false) { // if ValEmail & ValPass are as above
+         			var delay=1500;
+         			setTimeout(function(){
+         				$('.error, .error_menu').css('display', 'block');
+         				$('.pesan, .error_menu').css('display', 'none');
+         				$('#spiner_login, #spiner_login_menu').css('display', 'none');
+         				var tutup=5000;
+         				setTimeout(function(){
+         					$('.error, .error_menu').css('display', 'none');
+         					$('.pesan, .error_menu').css('display', 'block');
+         				},tutup);
+         			},delay);
+         		}
+         	});
+         });
+         $('.player').modal({backdrop: 'static'})  
+      </script>
+      <div class="modal fade dcma" tabindex="-1" role="dialog" aria-labelledby="dcma" aria-hidden="true">
+         <div class="modal-dialog">
+            <div class="panel panel-primary">
+               <div class="panel-heading">
+                  <h3 class="panel-title text-center">DMCA Notice <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="fa fa-times"></i></button></h3>
+               </div>
+               <div class="panel-body" style="text-align:justify;">
+                  <p>OTEFILM respects the intellectual property rights of all content creators, whether their work is affiliated with our site or not. </p>
+                  <p>If you have reason to suspect that your intellectual property rights have been infringed in any way that connects to our site, we strongly advise that you contact our copyright agent with a complaint as soon as possible. We take all violations of the Digital Millennium Copyright Act of 1998 extremely seriously. In order to ensure your complaint remains legitimate under the DCMA, please ensure your copyright complaint contains all of the following information:</p>
+                  <ul style="text-align: left;">
+                     <li>A signature, electronic or physical, of an individual who has been authorized to represent you, the copyright holder;</li>
+                     <li>Clear identification of the copyrighted item(s) in question, as well as identification of the work(s) infringing on the copyright holder’s intellectual property rights;</li>
+                     <li>Contact information for you, the copyright holder, that OTEFILM can use to contact you, including your full name, telephone number, physical address and e-mail address;</li>
+                     <li>A written letter stating that you, the copyright holder, “in good faith believes that the use of the material in the manner complained of is not authorized by the copyright owner, its agent or the law”;</li>
+                     <li>A written letter stating that all of the information provided in the statement above is wholly accurate, and reaffirming that the writer of said letter has been legally authorized, under penalty of perjury, to represent you, the copyright holder.</li>
+                  </ul>
+                  <p>The statement of complaint that you provide us, containing all of the above information, should be sent to our Designated Copyright Agent by email to contact addresses below:</p>
+                  <p>Attn: DMCA Office</p>
+                  <p></p>
+                  <p>Contact Us : <b><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="a8cccbc5c9e8c7dccdcec1c4c586cbc7c5">[email&#160;protected]</a></b></p>
+                  <p>PLEASE REMEMBER THAT IF YOU CHOOSE TO MISREPRESENT ANY OF THE DETAILS REGARDING AN ALLEGED COPYRIGHT INFRINGEMENT, YOU WILL BE SUBJECT TO SERIOUS CIVIL PENALTIES UNDER FEDERAL LAW, INCLUDING ANY MONETARY DAMAGES, COURT COSTS AND LAWYERS FEES ACCRUED BY US, AND ANY COPYRIGHT HOLDERS OR COPYRIGHT HOLDER’S LICENSEES WHO ARE INJURED IN ANY CAPACITY FOLLOWING OUR RELIANCE ON THE VERACITY OF YOUR REPRESENTATION. YOU COULD ALSO BE CRIMINALLY PROSECUTED FOR ACTS OF PERJURY. </p>
+                  <p>Do not take anything outlined in this document as formal legal advice. For further information on the details required to lodge a formal DMCA notification, please refer to 17 U.S.C. 512(c)(3). </p>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="modal fade privacy" tabindex="-1" role="dialog" aria-labelledby="privacy" aria-hidden="true">
+         <div class="modal-dialog">
+            <div class="panel panel-primary">
+               <div class="panel-heading">
+                  <h3 class="panel-title text-center">Privacy Police <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="fa fa-times"></i></button></h3>
+               </div>
+               <div class="panel-body" style="text-align:justify;">
+                  <div class="panel-body" style="text-align: justify">
+                     <p>We recognize that your privacy is important. This document outlines the types of personal information we receive and collect when you use OTEFILM, as well as some of the steps we take to safeguard information. We hope this will help you make an informed decision about sharing personal information with us. OTEFILM strives to maintain the highest standards of decency, fairness and integrity in all our operations. Likewise, we are dedicated to protecting our customers', consumers' and online visitors' privacy on our website.</p>
+                     <p><strong>Personal Information</strong></p>
+                     <p>OTEFILM collects personally identifiable information from the visitors to our website only on a voluntary basis. Personal information collected on a voluntary basis may include name, postal address, email address, company name and telephone number.</p>
+                     <p>This information is collected if you request information from us, participate in a contest or sweepstakes, and sign up to join our email list or request some other service or information from us. The information collected is internally reviewed, used to improve the content of our website, notify our visitors of updates, and respond to visitor inquiries.</p>
+                     <p>Once information is reviewed, it is discarded or stored in our files. If we make material changes in the collection of personally identifiable information we will inform you by placing a notice on our site. Personal information received from any visitor will be used only for internal purposes and will not be sold or provided to third parties.</p>
+                     <p><strong>Use of Cookies and Web Beacons</strong></p>
+                     <p>We may use cookies to help you personalize your online experience. Cookies are identifiers that are transferred to your computer's hard drive through your Web browser to enable our systems to recognize your browser. The purpose of a cookie is to tell the Web server that you have returned to a specific page. For example, if you personalize the sites pages, or register with any of our site's services, a cookie enables OTEFILM to recall your specific information on subsequent visits.</p>
+                     <p>You have the ability to accept or decline cookies by modifying your Web browser; however, if you choose to decline cookies, you may not be able to fully experience the interactive features of the site.</p>
+                     <p>A web beacon is a transparent image file used to monitor your journey around a single website or collection of sites. They are also referred to as web bugs and are commonly used by sites that hire third-party services to monitor traffic. They may be used in association with cookies to understand how visitors interact with the pages and content on the pages of a web site.</p>
+                     <p>We may serve third-party advertisements that use cookies and web beacons in the course of ads being served on our web site to ascertain how many times you've seen an advertisement. No personally identifiable information you give us is provided to them for cookie or web beacon use, so they cannot personally identify you with that information on our web site.</p>
+                     <p>Some third-party advertisements may be provided by Google, which uses cookies to serve ads on this site. Google uses the DART cookie, which enables it to serve ads to our users based on their visits to this site and other sites on the Web. You may opt out of the use of the DART cookie by visiting the Google ad and content network privacy Police.</p>
+                     <p>Browsers can be set to accept or reject cookies or notify you when a cookie is being sent. Privacy software can be used to override web beacons. Taking either of these actions shouldn't cause a problem with our site, should you so choose.</p>
+                     <p><strong>Children's Online Privacy Protection Act</strong></p>
+                     <p>This website is directed to adults; it is not directed to children under the age of 13. We operate our site in compliance with the Children's Online Privacy Protection Act, and will not knowingly collect or use personal information from anyone under 13 years of age.</p>
+                     <p><strong>Non-Personal Information</strong></p>
+                     <p>In some cases, we may collect information about you that is not personally identifiable. We use this information, which does not identify individual users, to analyze trends, to administer the site, to track users' movements around the site and to gather demographic information about our user base as a whole. The information collected is used solely for internal review and not shared with other organizations for commercial purposes.</p>
+                     <p><strong>Release of Information</strong></p>
+                     <p>If OTEFILM is sold, the information we have obtained from you through your voluntary participation in our site may transfer to the new owner as a part of the sale in order that the service being provided to you may continue. In that event, you will receive notice through our website of that change in control and practices, and we will make reasonable efforts to ensure that the purchaser honors any opt-out requests you might make of us.</p>
+                     <p><strong>How You Can Correct or Remove Information</strong></p>
+                     <p>We provide this privacy Police as a statement to you of our commitment to protect your personal information. If you have submitted personal information through our website and would like that information deleted from our records or would like to update or correct that information, please use our Contact Us page.</p>
+                     <p><strong>Updates and Effective Date</strong></p>
+                     <p>OTEFILM reserves the right to make changes in this Police. If there is a material change in our privacy practices, we will indicate on our site that our privacy practices have changed and provide a link to the new privacy Police. We encourage you to periodically review this Police so that you will know what information we collect and how we use it.</p>
+                     <p><strong>Agreeing to Terms</strong></p>
+                     <p>If you do not agree to OTEFILM Privacy Police as posted here on this website, please do not use this site or any services offered by this site.</p>
+                     <p>Your use of this site indicates acceptance of this privacy Police.</p>
+                     <p><strong>DISCLAIMER</strong></p>
+                     <p>OTEFILM provides this website as a service. While the information contained within the site is periodically updated, no guarantee is given that the information provided in this website is correct, complete, and/or up-to- date.</p>
+                     <p>The materials contained on this website are provided for general information purposes only. OTEFILM does not accept any responsibility for any loss which may arise from reliance on information contained on this site.</p>
+                     <p>Permission is given for the downloading and temporary storage of one or more of these pages for the purpose of viewing on a personal computer. The contents of this site are protected by copyright under international conventions and, apart from the permission stated, the reproduction, permanent storage, or retransmission of the contents of this site is prohibited without the prior written consent of OTEFILM.</p>
+                     <p>Some links within this website may lead to other websites, including those operated and maintained by third parties. OTEFILM includes these links solely as a convenience to you, and the presence of such a link does not imply a responsibility for the linked site or an endorsement of the linked site, its operator, or its contents (exceptions may apply).</p>
+                     <p>This website and its contents are provided "AS IS" without warranty of any kind, either express or implied, including, but not limited to, the implied warranties of merchantability, fitness for a particular purpose, or non-infringement.</p>
+                     <p>Reproduction, distribution, republication, and/or retransmission of material contained within this website are prohibited unless the prior written permission of OTEFILM has been obtained. provides this website as a service. While the information contained within the site is periodically updated, no guarantee is given that the information provided in this website is correct, complete, and/or up-to- date.</p>
+                     <p>The materials contained on this website are provided for general information purposes only. OTEFILM does not accept any responsibility for any loss which may arise from reliance on information contained on this site.</p>
+                     <p>Permission is given for the downloading and temporary storage of one or more of these pages for the purpose of viewing on a personal computer. The contents of this site are protected by copyright under international conventions and, apart from the permission stated, the reproduction, permanent storage, or retransmission of the contents of this site is prohibited without the prior written consent of OTEFILM.<br>
+                        Some links within this website may lead to other websites, including those operated and maintained by third parties. OTEFILM includes these links solely as a convenience to you, and the presence of such a link does not imply a responsibility for the linked site or an endorsement of the linked site, its operator, or its contents (exceptions may apply).
+                     </p>
+                     <p>This website and its contents are provided "AS IS" without warranty of any kind, either express or implied, including, but not limited to, the implied warranties of merchantability, fitness for a particular purpose, or non-infringement.</p>
+                     <p>Reproduction, distribution, republication, and/or retransmission of material contained within this website are prohibited unless the prior written permission of OTEFILM has been obtained.</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="modal fade contact" tabindex="-1" role="dialog" aria-labelledby="contact" aria-hidden="true">
+         <div class="modal-dialog">
+            <div class="panel panel-primary">
+               <div class="panel-heading">
+                  <h3 class="panel-title text-center">Contact Us <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="fa fa-times"></i></button></h3>
+               </div>
+               <div class="panel-body">
+                  <form action="" method="POST" role="form" enctype="multipart/form-data">
+                     <div class="form-group">
+                        <label for="">Name</label>
+                        <input name="name" required="" type="text" class="form-control" id="name" placeholder="Your Name">
+                     </div>
+                     <div class="form-group">
+                        <label for="">Email</label>
+                        <input name="email" required="" type="email" class="form-control" id="email" placeholder="Your Email">
+                     </div>
+                     <div class="form-group">
+                        <label for="">Message</label>
+                        <textarea name="message" required="" class="form-control" id="message" placeholder="Your Message" style="resize: none;"></textarea>
+                     </div>
+                     <input type="hidden" name="contact" value="submit">
+                     <button id="submitcontact" type="submit" class="btn btn-primary pull-right">Submit</button>
+                  </form>
+               </div>
+            </div>
+         </div>
+      </div>
+      <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript" src="/include/js/scripts.js"></script>
+      <script type="text/javascript" src="/include/js/screenfull.min.js"></script>
+      <div class="online">
+         <span class="online-icon"></span>
+         <div class="online-text">
+            <p>28974 Users Online Now</p>
+         </div>
+      </div>
+      <!-- Histats.com  START  (aync)-->
+      <script type="text/javascript">var _Hasync= _Hasync|| [];
+         _Hasync.push(['Histats.start', '1,4461710,4,0,0,0,00010000']);
+         _Hasync.push(['Histats.fasi', '1']);
+         _Hasync.push(['Histats.track_hits', '']);
+         (function() {
+         var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+         hs.src = ('//s10.histats.com/js15_as.js');
+         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+         })();
+      </script>
+      <noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?4461710&101" alt="" border="0"></a></noscript>
+      <!-- Histats.com  END  -->
+   </body>
+</html>
