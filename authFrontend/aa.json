@@ -1,0 +1,1 @@
+{"response_type":"code","redirect_params":{"code":"486f14ed-3327-4e3b-99eb-dc813895937c"},"redirect_uri":"http://localhost:3000/app/auth/callback","forward_values":{"state":"5fdf589a-4fc6-4be0-ab91-9034006aefd3","nonce":"7758cf02-0f24-4bff-bab8-810c24cb44e2"}}
